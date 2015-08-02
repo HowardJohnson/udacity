@@ -1,0 +1,76 @@
+<b>Lesson 1 Notes</b> <br><br>
+
+Basics of the Web<br>
+1. the web - major pieces, what they look like, how they fit together<br>
+2. HTML - main document type<br>
+3. URLs - how to refer to docs on the web<br>
+4. HTTP - protcol web runs on<br>
+5. web applications<br><br>
+
+<em>Major pieces</em><br><br>
+
+computer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Internet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTTP&nbsp;&nbsp;&nbsp;&nbsp;servers<br>
+browser<br><br>
+
+<em>HTML - made up of</em><br>
+1. text content - what you see<br>
+2. markup - what it looks like<br>
+3. references to other docs  ie)images, videos<br>
+4. links to other pages<br><br>
+
+<em>HTML - markup</em><br>
+ &lt;NAME&gt; contents &lt;NAME&gt;     called element<br><br>
+
+<em>HTML - Tags</em><br>
+&lt; b  &gt;   bold<br>
+&lt; em  &gt; emphasis - italics<br><br>
+
+<em>HTML attributes</em><br>
+&lt; TAG ATTR = "value"&gt; contents &lt;TAG &gt;><br>
+ex) &lt;a href = "www.reddit.com"&gt derp &lt;a &gt; <br>
+&nbsp;&nbsp;ATTR = attribute name<br>
+&nbsp;&nbsp;value = url<br>
+&nbsp;&nbsp;derp = what will show on screen<br><br>
+
+<em>HTML images&gt;</em><br>
+&lt;img src="url" alt="text"&gt;<br>
+note - no closing tag - called void tag<br><br>
+
+<em>HTML white space</em><br>
+&lt;br>  break - void tag<br>
+&lt;p> content p&gt;  paragraph<br><br>
+
+<em>Inline or Block</em><br>
+&lt;br>  is inline<br>
+&lt;p>   is block - can have a vertical and horizontal definition<br><br>
+
+<em>Span and Div</em><br>
+&lt;span class="foo"&gt;   inline <br>
+&nbsp;&nbsp;text <br>
+&lt;/span &gt; <br><br>
+
+&lt;div  class="bar"&gt;    block<br>
+&nbsp;&nbsp;text <br>
+&lt; /div &gt;<br><br>
+
+HTML Documents<br>
+&lt;!DOCTYPE HTML&gt;<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&nbsp;&nbsp;&nbsp;  &lt;title&gt;  "Title" &lt;title&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+&nbsp;&nbsp;&nbsp;  &lt;b&gt; "content" </&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;<br><br>
+
+
+example of inserting code 
+Title - <title> </title>
+The title tag defines the title that will appear in the title bar of your web browser. The title must appear between the head tags.
+
+
+	<dt>Title - <code class="def">&lt;title&gt; &lt;/title&gt;</code></dt>
+	<dd>The <code>title</code> tag defines the title that will appear in the title bar of your web browser.  The <code>title</code> must appear 
+	between the <code>head</code> tags.</dd>
+
